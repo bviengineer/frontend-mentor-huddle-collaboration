@@ -65,6 +65,7 @@ h2 + p {
   width: 100%;
 }
 
+/* hsl colors: https://www.w3schools.com/colors/colors_hsl.asp */
 .benefits {
   background-color: hsla(180, 100%, 93%, 0.2);
   padding: 5em 0;
@@ -78,5 +79,25 @@ h2 + p {
 
 .benefits p {
  padding: 0 2em;
+}
+
+.body-ready-to-build {
+  padding: 0;
+  margin-bottom: 10em;
+}
+
+.body-ready-to-build h2 {
+  padding: 0;
+}
+
+.body-ready-to-build button {
+  display: block;
+  margin: 3em auto 0;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 1em 3em;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 8px 5px #f1f1f1;
 }
 
