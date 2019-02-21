@@ -1,4 +1,18 @@
+/* Universal Styles */
 body {
   /* box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
   box-sizing: border-box;
+}
+
+/* Page Header */
+.header-try-it-btn {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+  position: absolute;
+  top: 30px;
+  left: 350px;
+  color: hsl(322, 100%, 66%);
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid hsl(322, 100%, 66%);
+  padding: 5px 10px;
 }
