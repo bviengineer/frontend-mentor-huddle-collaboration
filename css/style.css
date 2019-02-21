@@ -2,7 +2,9 @@
 body {
   /* box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
   box-sizing: border-box;
+  padding: 30px 20px 200px;
 }
+
 
 /* Page Header */
 .header-try-it-btn {
