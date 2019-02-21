@@ -22,3 +22,13 @@ body {
 header img {
   width: 30%;
 }
+
+
+/* Page Body */
+main {
+  padding-top: 8em;
+}
+
+h2 {
+  text-align: center;
+}
