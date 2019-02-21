@@ -2,7 +2,7 @@
 body {
   /* box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
   box-sizing: border-box;
-  padding: 30px 20px 200px;
+  padding: 30px 30px 200px;
 }
 
 
@@ -10,7 +10,7 @@ body {
 .header-try-it-btn {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/position */
   position: absolute;
-  top: 5px;
+  top: 5%;
   left: 350px;
   color: hsl(322, 100%, 66%);
   font-weight: bold;
