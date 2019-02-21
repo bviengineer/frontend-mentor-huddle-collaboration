@@ -2,7 +2,7 @@
 body {
   /* box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
   box-sizing: border-box;
-  padding: 30px 30px 200px;
+  padding: 3% 0;
 }
 
 
@@ -20,7 +20,7 @@ body {
 }
 
 header img {
-  width: 30%;
+  width: 40%;
 }
 
 
