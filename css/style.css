@@ -1,0 +1,171 @@
+/* UNIVERSAL STYLES */
+body {
+  /* box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+  box-sizing: border-box;
+  padding: 3% 0;
+}
+
+
+/* PAGE HEADER */
+.header-try-it-btn {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+  position: absolute;
+  top: 5%;
+  left: 350px;
+  color: hsl(323, 19%, 60%);
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid hsl(322, 100%, 66%);
+  padding: 5px 10px;
+}
+
+header img {
+  width: 40%;
+}
+
+
+/* PAGE BODY */
+main {
+  padding-top: 8em;
+}
+
+h2 {
+  text-align: center;
+  padding: 0 15%;
+}
+
+h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* css selectors: https://www.w3schools.com/cssref/css_selectors.asp */
+h2 + p {
+  text-align: center;
+  padding: 0 10%;
+}
+
+/* centering images: https://www.w3schools.com/howto/howto_css_image_center.asp */
+[src="./images/screen-mockups.svg"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6em;
+  width: 100%;
+}
+
+[src="./images/illustration-your-users.svg"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6em;
+  width: 100%;
+}
+
+/* hsl colors: https://www.w3schools.com/colors/colors_hsl.asp */
+.benefits {
+  /* background-color: hsla(180, 100%, 93%, 0.2); */
+  background-color: orange;
+  padding: 5em 0;
+  margin: 5em 0;
+}
+
+.benefits h3 {
+  padding: 0 1.7em;
+  margin-top: 3em;
+}
+
+.benefits p {
+ padding: 0 2em;
+}
+
+.body-ready-to-build {
+  padding: 0;
+  margin-bottom: 10em;
+}
+
+.body-ready-to-build h2 {
+  padding: 0;
+}
+
+.body-ready-to-build button {
+  display: block;
+  margin: 3em auto 0;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 1em 3em;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 8px 5px #f1f1f1;
+}
+
+
+/* PAGE FOOTER */
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  margin: 0;
+  padding: 6em 1.5em 10em;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+[type="email"] {
+  height: 2em;
+  width: 15em;
+}
+
+span {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  /* height: 10em; */
+  padding: 0.5em;
+}
+
+footer figure img {
+  display: block;
+  margin-left: 0;  
+  width: 60%;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  filter: saturate(0) invert(50%) brightness(900%);
+}
+
+.footer-content {
+  text-align: left;
+  padding-right: 100px;
+}
+
+i {
+  display: inline-block;
+  padding: 0.2em;
+  font-size: 30px;
+}
+
+li {
+  list-style-type: none;
+  line-height: 2.5;
+  font-size: 14px;
+}
+
+.copyright {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

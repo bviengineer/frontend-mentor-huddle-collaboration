@@ -7,27 +7,21 @@
 	<!-- displays site properly based on user's device -->
 
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<!-- Kaisma added -->
+	<link rel="stylesheet" href="css/style.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 	<title>Frontend Mentor | Huddle landing page with split benefits section</title>
-
-	<!-- Feel free to remove these styles or customise in your own stylesheet 👍  -->
-
-	<style>
-		.attribution {
-			font-size: 11px;
-			text-align: center;
-		}
-
-		.attribution a {
-			color: hsl(228, 45%, 44%);
-		}
-	</style>
 </head>
 
 <body>
 	<header>
-		<h1>Huddle</h1>
-		<button type="button">
+		<figure>
+			<img src="images/logo.svg" alt="Logo">
+		</figure>
+		<button type="button" class="header-try-it-btn">
 			Try it free
 		</button>
 	</header>
@@ -41,15 +35,15 @@
 				Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
 			</p>
 			
-			<button type="button">
-				Get Started For Free
-			</button>
 			<figure>
 				<img src="./images/screen-mockups.svg" alt="Users Illustration" />
 			</figure>
 		</section>
 		
-		<section>
+		<section class="benefits">
+			<figure>
+				<img src="./images/illustration-your-users.svg" alt="Users Illustration" />
+			</figure>
 			<div>
 				<h3>
 					Grow Together
@@ -72,14 +66,10 @@
 				It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
 			</p>
 			</div>
-			<figure>
-				<img src="./images/illustration-your-users.svg" alt="Users Illustration" />
-			</figure>
-
 		</section>
 		
 		
-	<section>
+	<section class="body-ready-to-build">
 		<h2>Ready To Build Your Community?</h2>
 		<button type="button">
 			Get Started For Free
@@ -89,30 +79,42 @@
 </main>
 
 <footer>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit tincidunt risus eget vestibulum. Integer vel ligula dictum.
-		<nav>
-			<ul>
-				About Us
-				What We Do
-				FAQ
-			</ul>
+	<h3>Subscribe</h3>
 
-			<ul>
-				Career
-				Blog
-				Contact Us
-			</ul>
+	<input type="email"><span>&rarr;</span>
 
-			Subscribe
-		</nav>
+	<figure>
+		<img src="images/logo.svg" alt="Logo">
+	</figure>
 
-		<small>
-			&copy; 2018 Huddle Copyright
-		</small>
-		<p class="attribution">
-			This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge"
-				target="_blank">Frontend Mentor</a> 🎉
-		</p>
+	<p class="footer-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit tincidunt risus eget vestibulum. Integer vel ligula dictum.</p>
+
+	 <!-- Social Media Icons -->
+	 <i class="fab fa-facebook-square"></i>
+	 <i class="fab fa-instagram"></i>
+	 <i class="fab fa-twitter-square"></i>
+	
+	<nav>
+		<ul>
+			About Us
+			What We Do
+			FAQ
+		</ul>
+
+		<ul>
+			Career
+			Blog
+			Contact Us
+		</ul>			
+	</nav>
+
+	<small class="copyright">
+		&copy; 2018 - 2019 Huddle Copyright
+	</small>
+	<p class="attribution">
+		This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge"
+			target="_blank">Frontend Mentor</a> 🎉
+	</p>
 	</footer>
 </body>
 </html>
