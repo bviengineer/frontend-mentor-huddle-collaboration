@@ -12,7 +12,7 @@ body {
   position: absolute;
   top: 5%;
   left: 350px;
-  color: hsl(322, 100%, 66%);
+  color: hsl(323, 19%, 60%);
   font-weight: bold;
   background-color: transparent;
   border: 1px solid hsl(322, 100%, 66%);
@@ -67,7 +67,8 @@ h2 + p {
 
 /* hsl colors: https://www.w3schools.com/colors/colors_hsl.asp */
 .benefits {
-  background-color: hsla(180, 100%, 93%, 0.2);
+  /* background-color: hsla(180, 100%, 93%, 0.2); */
+  background-color: orange;
   padding: 5em 0;
   margin: 5em 0;
 }
