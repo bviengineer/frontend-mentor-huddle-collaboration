@@ -34,7 +34,7 @@ h2 {
   padding: 0 15%;
 }
 
-h2, h3 {
+h2, h3, h4 {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -101,3 +101,70 @@ h2 + p {
   box-shadow: 2px 8px 5px #f1f1f1;
 }
 
+
+/* PAGE FOOTER */
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  margin: 0;
+  padding: 6em 1.5em 10em;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+[type="email"] {
+  height: 2em;
+  width: 15em;
+}
+
+span {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  /* height: 10em; */
+  padding: 0.5em;
+}
+
+footer figure img {
+  display: block;
+  margin-left: 0;  
+  width: 60%;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  filter: saturate(0) invert(50%) brightness(900%);
+}
+
+.footer-content {
+  text-align: left;
+  padding-right: 100px;
+}
+
+i {
+  display: inline-block;
+  padding: 0.2em;
+  font-size: 30px;
+}
+
+li {
+  list-style-type: none;
+  line-height: 2.5;
+  font-size: 14px;
+}
+
+.copyright {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
