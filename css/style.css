@@ -184,8 +184,11 @@ li {
   list-style-type: none;
   line-height: 2.5;
   font-size: 14px;
-}
 
+}
+ul {
+  display: block;
+}
 .copyright {
   font-size: 11px;
   color: white;
