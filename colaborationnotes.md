@@ -1,5 +1,13 @@
+# Collaboration Notes
+
+## Participants
+julian johannesen - julianjohannesen@gmail.com - GitHub: julianjohannesen
 ramona saintandre - thenewmona@gmail.com
-2/26
+
+
+## Notes by Date
+
+### 2/26
 https://www.w3schools.com/css/tryit.asp?filename=trycss_form_icon
 
 https://www.w3schools.com/css/tryit.asp?filename=trycss_form_button
