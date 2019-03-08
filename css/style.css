@@ -133,6 +133,7 @@ footer h3 {
   padding: 0 12px;
   background: hsl(322, 100%, 66%);
   color: white;
+  line-height: inherit !important;
   /* min-width: 50px; */
   text-align: center;
 }
