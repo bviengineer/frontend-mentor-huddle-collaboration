@@ -118,9 +118,20 @@ footer h3 {
   font-weight: 400;
 }
 
+footer label {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1em;
+  text-transform: uppercase
+}
+
 [type="email"] {
-  height: 2em;
-  width: 15em;
+  /* height: 2em; */
+  /* width: 15em; */
+  border-style: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  text-indent: .5em;
+  width: 100%;
 }
 
 .input-container {
@@ -131,10 +142,13 @@ footer h3 {
 }
 
 .icon {
-  padding: 0 12px;
-  background: hsl(322, 100%, 66%);
+  padding: 0 6px;
+  background-image: linear-gradient(HSL(322, 100%, 77%), HSL(322, 100%, 67%));
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
   color: white;
-  line-height: inherit !important;
+  font-style: normal;
+  /* line-height: 1; */
   /* min-width: 50px; */
   text-align: center;
 }
