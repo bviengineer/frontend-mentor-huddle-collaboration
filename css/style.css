@@ -130,10 +130,10 @@ footer h3 {
 }
 
 .icon {
-  padding: 12px;
+  padding: 0 12px;
   background: hsl(322, 100%, 66%);
   color: white;
-  min-width: 50px;
+  /* min-width: 50px; */
   text-align: center;
 }
 
