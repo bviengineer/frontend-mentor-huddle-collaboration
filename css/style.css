@@ -68,8 +68,7 @@ h2 + p {
 
 /* hsl colors: https://www.w3schools.com/colors/colors_hsl.asp */
 .benefits {
-  /* background-color: hsla(180, 100%, 93%, 0.2); */
-  background-color: orange;
+  background-color: hsla(180, 100%, 93%, 0.2);
   padding: 5em 0;
   margin: 5em 0;
 }
