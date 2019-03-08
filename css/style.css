@@ -109,6 +109,7 @@ h2 + p {
 footer {
   background-color: hsl(192, 100%, 9%);
   color: white;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 6em 1.5em 10em;
 }
@@ -119,7 +120,6 @@ footer h3 {
 }
 
 footer label {
-  font-family: 'Poppins', sans-serif;
   margin-bottom: 1em;
   text-transform: uppercase
 }
@@ -153,28 +153,34 @@ footer label {
   text-align: center;
 }
 
+/* This isn't in out html right now */
 .input-field {
-  width: 100%;
+  /* width: 100%;
   padding: 10px;
-  outline: none;
+  outline: none; */
 }
-
+/* This isn't in our html right now */
 .input-field:focus {
-  border: 2px solid dodgerblue;
+  /* border: 2px solid dodgerblue; */
+}
+
+/* This is not in our html right now */
+span {
+  /* background-color: hsl(322, 100%, 66%); */
+  /* color: white; */
+  /* height: 10em; */
+  /* padding: 0.5em; */
 }
 
 
-span {
-  background-color: hsl(322, 100%, 66%);
-  color: white;
-  /* height: 10em; */
-  padding: 0.5em;
+footer figure {
+  margin: 0;
 }
 
 footer figure img {
-  display: block;
-  margin-left: 0;  
-  width: 60%;
+  /* display: block;
+  margin-left: 0;   */
+  width: 60vw;
   padding-top: 3em;
   padding-bottom: 2em;
   filter: saturate(0) invert(50%) brightness(900%);
@@ -186,9 +192,10 @@ footer button, footer button img {
   border: none;
 }
 
+
 .footer-content {
-  text-align: left;
-  padding-right: 100px;
+  /* text-align: left;
+  padding-right: 100px; */
 }
 
 i {
@@ -200,12 +207,16 @@ i {
 li {
   list-style-type: none;
   line-height: 2.5;
-  font-size: 14px;
+  /* font-size: 14px; */
+  margin: 0;
 
 }
+
 ul {
-  display: block;
+  /* display: block; */
+  padding: 0;
 }
+
 .copyright {
   font-size: 11px;
   color: white;
