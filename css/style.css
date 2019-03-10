@@ -233,3 +233,9 @@ ul {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 480px){
+  .benefits {
+    background-color:white;
+  }
+}
