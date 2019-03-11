@@ -108,11 +108,11 @@ h2 + p {
 
 /* PAGE FOOTER */
 footer {
-  background-color: hsl(192, 100%, 9%);
+  background: no-repeat bottom url(../images/bg-footer-mobile.png) hsl(192, 100%, 9%); 
   color: white;
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding: 6em 1.5em 10em;
+  padding: 0.5em 1.5em;
 }
 
 footer h3 {
@@ -125,21 +125,34 @@ footer label {
   text-transform: uppercase
 }
 
+footer form {
+  display: flex;
+  align-items: center;
+}
+
 [type="email"] {
-  /* height: 2em; */
-  /* width: 15em; */
-  border-style: none;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  /* border-style: none; */
+  /* border-top-left-radius: 3px; */
+  /* border-bottom-left-radius: 3px; */
   text-indent: .5em;
-  width: 100%;
+  width: 80%;
+  height: 3em;
+}
+
+[type="submit"] {
+  width: 20%;
+  height: 3.55em;
+  border: none;
+  background: no-repeat center url('../images/icon-arrow.svg'), linear-gradient(HSL(322, 100%, 77%), HSL(322, 100%, 67%));
+}
+
+footer .container {
+  margin: 6em 0;
 }
 
 .input-container {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
   width: 100%;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 .icon {
