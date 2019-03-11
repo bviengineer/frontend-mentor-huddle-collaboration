@@ -107,11 +107,11 @@ h2 + p {
 
 /* PAGE FOOTER */
 footer {
-  background-color: hsl(192, 100%, 9%);
+  background: no-repeat bottom url(../images/bg-footer-mobile.png) hsl(192, 100%, 9%); 
   color: white;
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding: 6em 1.5em 10em;
+  padding: 0.5em 1.5em;
 }
 
 footer h3 {
@@ -132,6 +132,10 @@ footer label {
   border-bottom-left-radius: 3px;
   text-indent: .5em;
   width: 100%;
+}
+
+footer .container {
+  margin: 6em 0;
 }
 
 .input-container {
