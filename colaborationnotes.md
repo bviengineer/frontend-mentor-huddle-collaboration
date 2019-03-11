@@ -3,6 +3,8 @@
 ## Participants
 julian johannesen - julianjohannesen@gmail.com - GitHub: julianjohannesen
 ramona saintandre - thenewmona@gmail.com
+katarzyna mazur - mazur66@hotmail.com GitHub: KatarzynaMaz
+
 
 
 ## Notes by Date
